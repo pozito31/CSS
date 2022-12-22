@@ -30,7 +30,7 @@
   #menu > ul { margin-top: 20px; align-items: flex-start; justify-content: space-evenly; }
 }
 @media (max-width:646px) {
-  #content { display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 20px; padding-bottom: 20px; }
+  #content { display: flex; flex-direction: column; flex-wrap: wrap; justify-content: space-between; padding-top: 20px; padding-bottom: 20px; }
   #footer .logo { flex-grow: 1; flex-basis: 100%; text-align: center; margin: 0px; }
   #footer .info { flex-grow: 1; flex-basis: 100%; text-align: center; margin: 0px; }
 }
